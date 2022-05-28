@@ -14,7 +14,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/auth/login" element={<Login />} />
         <Route path="/auth/register" element={<Register />} />
-        <Route path="/auth/reset-password" element={<ResetPassword />} />
+        <Route path="/auth/resetPassword" element={<ResetPassword />} />
         <Route path="*" element={<Page404 />} />
       </Routes>
     </BrowserRouter>
