@@ -1,0 +1,52 @@
+.text-logo {
+    font-size: 28px;
+    color: #32C33B;
+    font-weight: bold;
+}
+
+.text-auth {
+    font-weight: bold;
+    font-size: 16px;
+    font-style: normal;
+    color: #222222;
+}
+
+.text-activate {
+    color: #DF4538;
+}
+
+.switch-role-login>.nav>li>.nav-link.active {
+    color: white;
+    background-color: #32C33B;
+    border: 1px solid #32C33B;
+}
+
+.switch-role-login>.nav>li>.nav-link {
+    border-radius: 0px;
+    color: #9B9B9B;
+    border: 1px solid #9B9B9B;
+}
+
+.text-forgot-password,
+.text-register {
+    color: #32C33B;
+    font-size: 14px;
+    font-style: normal;
+    text-decoration: none;
+}
+
+.text-forgot-password:hover,
+.text-register:hover {
+    color: #2AA952;
+}
+
+.btn-submit {
+    background-color: #32C33B;
+    color: white;
+}
+
+.btn-submit:hover {
+    color: white;
+    background-color: #2AA952;
+    border: 1px solid #2AA952;
+}
