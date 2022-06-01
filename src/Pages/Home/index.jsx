@@ -49,9 +49,9 @@ const Home = () => {
         </div>
         <div className="d-flex flex-wrap justify-content-sm-around justify-content-center">
           <div className="flex-item">
-            {products.map((item, index) => {
+            {products.map((item) => {
               return (
-                <div className="card" key={item.index}>
+                <div className="card" key={item.products_id}>
                   <img
                     className="img-fluid"
                     // src={`"http://localhost:4000/img/${item.products_images}`}
